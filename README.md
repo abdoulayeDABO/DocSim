@@ -1,6 +1,6 @@
-# DocSym v1.0
+# DocSim v1.0
 
-**DocSym** est une application web basée sur **Flask** permettant de calculer et visualiser la similarité entre deux documents texte. Le projet combine des techniques avancées de Traitement Automatique du Langage Naturel (NLP) pour le prétraitement et la vectorisation des textes, puis affiche le score de similarité sous forme d'une jauge interactive avec **Chart.js**.
+**DocSim** est une application web basée sur **Flask** permettant de calculer et visualiser la similarité entre deux documents texte. Le projet combine des techniques avancées de Traitement Automatique du Langage Naturel (NLP) pour le prétraitement et la vectorisation des textes, puis affiche le score de similarité sous forme d'une jauge interactive avec **Chart.js**.
 
 ## 📊 Diagramme de flux
 
@@ -38,8 +38,8 @@ Assurez-vous d'avoir Python 3.8+ et [`uv`](https://docs.astral.sh/uv/) installé
 ### 2. Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-nom/DocSym.git
-cd DocSym
+git clone https://github.com/abdoulayeDABO/DocSim.git
+cd DocSim
 ```
 
 ### 3. Installer les dépendances
