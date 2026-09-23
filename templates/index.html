@@ -49,7 +49,7 @@
 
                     <!-- Colonne formulaire -->
                     <div class="flex flex-col gap-4">
-                        <form action="http://127.0.0.1:5000/upload" class="dropzone border-2 border-dashed border-slate-300 rounded-xl p-8 text-center cursor-pointer transition-colors" id="form">
+                        <form action="/upload" class="dropzone border-2 border-dashed border-slate-300 rounded-xl p-8 text-center cursor-pointer transition-colors" id="form">
                             <div class="dz-message text-slate-500">
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M12 3v12"></path>
@@ -187,7 +187,7 @@
             }
 
             const myDropzone = new Dropzone("#form", {
-                url: "http://127.0.0.1:5000/upload",
+                url: "/upload",
                 paramName: "files",
                 maxFiles: 2,
                 maxFilesize: 16,
